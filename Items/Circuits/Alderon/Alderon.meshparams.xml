@@ -1,0 +1,12 @@
+<MeshParams MeshType="Static">
+	<Materials>
+		<Material Name="Image000" Model="TDSN" PhysicsId="TechGround" BaseTexture="Image000" />
+		<Material Name="Image001" Model="TDSN" PhysicsId="TechGround" BaseTexture="Image001" />
+		<Material Name="Image002" Model="TDSN" PhysicsId="TechGround" BaseTexture="Image002" />
+		<Material Name="Image003" Model="TDSN" PhysicsId="TechGround" BaseTexture="Image003" />
+		<Material Name="Image004" Model="TDSN" PhysicsId="TechGround" BaseTexture="Image004" />
+		<Material Name="Image005" Model="TDSN" PhysicsId="TechGround" BaseTexture="Image005" />
+		<Material Name="Image006" Model="TDSN" PhysicsId="TechGround" BaseTexture="Image006" />
+		<Material Name="Color_206_214_231" Model="TDSN" PhysicsId="TechGround" BaseTexture="Image006" />
+	</Materials>
+</MeshParams>
