@@ -1,0 +1,10 @@
+
+	<Item Type="StaticObject">
+	    <Phy>
+	        <MoveShape Type="mesh" File="ManiaPlanetPOD/Items/Circuits/Beltane/Beltane.Shape.gbx"/>
+	    </Phy>
+	    <Vis>
+	        <Mesh File="ManiaPlanetPOD/Items/Circuits/Beltane/Beltane.Mesh.gbx"/>
+	    </Vis>
+	    <Levitation VStep="2" />
+	</Item>

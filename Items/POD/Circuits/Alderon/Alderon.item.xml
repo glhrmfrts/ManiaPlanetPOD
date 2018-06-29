@@ -1,0 +1,9 @@
+<Item Type="StaticObject">
+    <Phy>
+        <MoveShape Type="mesh" File="ManiaPlanetPOD/Items/Alderon/Alderon.Shape.gbx"/>
+    </Phy>
+    <Vis>
+        <Mesh File="ManiaPlanetPOD/Items/Alderon/Alderon.Mesh.gbx"/>
+    </Vis>
+    <Levitation VStep="2" />
+</Item>
