@@ -3,10 +3,10 @@ import os
 import sys
 import subprocess
 
-TITLE = 'ManiaPlanetPOD'
+TITLE = 'POD'
 
 def circuit_dir(name):
-	return '..\\Items\\Circuits\\{}'.format(name)
+	return '..\\Items\\{}\\Circuits\\{}'.format(TITLE, name)
 
 def circuit_mesh_file(name):
 	return os.path.join(circuit_dir(name), '{}.fbx'.format(name))
@@ -18,7 +18,7 @@ def circuit_meshparams_file(name):
 	return os.path.join(circuit_dir(name), '{}.meshparams.xml'.format(name))
 
 def circuit_work_dir(name):
-	return '{}/Items/Circuits/{}'.format(TITLE, name)
+	return 'Items/{}/Circuits/{}'.format(TITLE, name)
 	
 def circuit_work_mesh_file(name):
 	return circuit_work_dir(name) + '/{}.fbx'.format(name)
@@ -60,10 +60,10 @@ def item_file_content(name):
 	return """
 	<Item Type="StaticObject">
 	    <Phy>
-	        <MoveShape Type="mesh" File="{1}/Items/Circuits/{0}/{0}.Shape.gbx"/>
+	        <MoveShape Type="mesh" File="Items/{1}/Circuits/{0}/{0}.Shape.gbx"/>
 	    </Phy>
 	    <Vis>
-	        <Mesh File="{1}/Items/Circuits/{0}/{0}.Mesh.gbx"/>
+	        <Mesh File="Items/{1}/Circuits/{0}/{0}.Mesh.gbx"/>
 	    </Vis>
 	    <Levitation VStep="2" />
 	</Item>""".format(name, TITLE)
